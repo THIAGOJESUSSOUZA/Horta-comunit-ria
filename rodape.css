@@ -1,0 +1,22 @@
+footer {
+background-color: var(--cor-segundaria);
+}
+
+.social-icone{
+    width: 30px;
+    padding: 4px 8px;
+}
+.redes-sociais{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.endereco{
+    font-family: intel;
+    text-align: center;
+    font-weight: 700;
+}
+
+span{
+    color:rgb(129, 40, 156);
+}

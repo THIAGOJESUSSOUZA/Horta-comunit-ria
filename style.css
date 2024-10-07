@@ -1,0 +1,73 @@
+@import url(reset.css);
+@import url(cabecalho.css);
+@import url(rodape.css);
+
+:root {
+    --branco: #ffffff;
+    --cor-segundaria: #38CD3D;
+
+}
+
+bady {
+    background-color: var(--branco);
+    color: black;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Conteiner-imagem {
+    width: 30%;
+    height: 40%;
+    margin: auto;
+    display: block;
+    }
+
+.titulo-segundario{
+    color: black;
+    font-weight: bold;
+    font-family: "Inter", "sans-serif";
+    font-size: 25px;
+    padding: 2%;
+}
+
+.sub-titulo{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Inter", "sans-serif";
+    padding: 1%;
+}
+
+.texto-paragrafo{
+    color: black;    
+    font-size: 18px;
+    text-align: justify;
+    font-family: "Inter", "sans-serif";
+    padding: 0.5%;
+}
+
+img {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+  }
+  
+  .swiper {
+    height: 400px;
+    width: 500px;
+    padding: 20px 0;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media (max-width: 800px) {
+    .swiper {
+      height: 270px;
+    }
+  }
